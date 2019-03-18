@@ -11,9 +11,14 @@ import { Provider } from "react-redux";
 import { store } from "../store";
 
 export const menuItems = [
-  { name: "Home", path: "/", exact: true, icon: "home", inverted: true },
-  { name: "About", path: "/about/", exact: true, icon: "info circle" },
-  { name: "Blog", path: "/blog/", exact: false, icon: "newspaper" },
+  { name: "Home", path: "/", exact: true },
+  { name: "TME Pictures", path: "/pictures/", exact: true },
+  { name: "Community", path: "/community/", exact: false },
+  { name: "News", path: "/news/", exact: false },
+  { name: "Shop", path: "/shop/", exact: false },
+  { name: "Origins", path: "/origins/", exact: false },
+  { name: "Book", path: "/book/", exact: false },
+  { name: "Game Sign-up", path: "/blog/", exact: false },
 ];
 
 export interface LayoutProps {

@@ -9,9 +9,13 @@ import { withKnobs, text, boolean } from "@storybook/addon-knobs";
 import { SidebarMenu } from "./SidebarMenu";
 
 const items = [
-  { name: "Home", path: "/", exact: true, icon: "home" },
-  { name: "About", path: "/about/", exact: true, icon: "info circle" },
-  { name: "Blog", path: "/blog/", exact: false, icon: "newspaper" },
+  { name: "Home", path: "/", exact: true },
+  { name: "TME Pictures", path: "/about/", exact: true },
+  { name: "Community", path: "/blog/", exact: false },
+  { name: "News", path: "/blog/", exact: false },
+  { name: "Shop", path: "/blog/", exact: false },
+  { name: "Origins", path: "/blog/", exact: false },
+  { name: "Game Sign-up", path: "/blog/", exact: false },
 ];
 
 const LinkStub: any = (props: any) =>

@@ -35,7 +35,7 @@
     "change-case": "^3.0.1",
     "codeclimate-test-reporter": "^0.4.1",
     "disqus-react": "^1.0.5",
-    "gatsby": "next",
+    "gatsby": "^2.0.0",
     "gatsby-link": "next",
     "gatsby-plugin-glamor": "next",
     "gatsby-plugin-google-analytics": "next",

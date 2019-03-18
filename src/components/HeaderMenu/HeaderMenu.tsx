@@ -4,6 +4,7 @@ import { Dispatch } from "redux";
 import { toggleSidebar } from "../../store";
 import { Container, Label, Menu, Icon } from "semantic-ui-react";
 import { MenuProps } from "../Menu";
+import logo from "../../images/Shaper.png";
 
 interface HeaderMenuProps extends MenuProps {
   dispatch?: Dispatch<any>;
@@ -14,7 +15,7 @@ export const HeaderMenu = ({ items, pathname, Link, inverted, dispatch }: Header
   <Container>
     <Menu size="large" pointing secondary inverted={inverted}>
       <Menu.Item as="a" className="mobile only" icon="sidebar" onClick={() => dispatch && dispatch(toggleSidebar())} />
-      <Menu.Item className="mobile hidden"><Icon name="spy" size="big" /></Menu.Item>
+      <Menu.Item className="mobile hidden"><img src={logo} alt="Logo" /></Menu.Item>
       {items.map((item) => {
         const active = (item.exact) ? pathname === item.path : pathname.startsWith(item.path);
         return <Menu.Item
