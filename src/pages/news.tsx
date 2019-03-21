@@ -7,22 +7,19 @@ const AboutPage = () => {
     <Container>
       <Segment vertical>
         <Header as="h2">
-          <Icon name="info circle" />
+          <Icon name="book" />
           <Header.Content>
-            About
+            News
           </Header.Content>
         </Header>
       </Segment>
       <Segment vertical>
         <p>
-          This starter was created by @fabien0102.
+          Great News!!!. We're launching a website.
         </p>
         <p>
-          For any question, I'm on <a href="https://discord.gg/2bz8EzW" target="blank">discord #reactiflux/gatsby</a>
-        </p>
-        <p>
-          For any issues, any PR are welcoming
-          <a href="https://github.com/fabien0102/gatsby-starter/issues" target="blank"> on this repository</a>
+          And today we're also launching the TME board game.
+          Check it out on the <a href="/pictures/" target="blank">TME Picures</a> page.
         </p>
       </Segment>
     </Container>
