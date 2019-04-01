@@ -9,20 +9,22 @@ const AboutPage = () => {
         <Header as="h2">
           <Icon name="info circle" />
           <Header.Content>
-            About
+            Share your Picture!
           </Header.Content>
         </Header>
       </Segment>
       <Segment vertical>
         <p>
-          This starter was created by @fabien0102.
+          If you have a drawing that you think will make a good TME (Card)
         </p>
         <p>
-          For any question, I'm on <a href="https://discord.gg/2bz8EzW" target="blank">discord #reactiflux/gatsby</a>
+          Take a high-resolution picture of it.
         </p>
         <p>
-          For any issues, any PR are welcoming
-          <a href="https://github.com/fabien0102/gatsby-starter/issues" target="blank"> on this repository</a>
+          Send it in to us at <a href="mailto:morten.kristiansen@gmail.com" target="blank"> our email address</a>
+        </p>
+        <p>
+          We will share the new TME (Card) on this site, check out the news.
         </p>
       </Segment>
     </Container>
