@@ -4,6 +4,7 @@ module.exports = {
     googleVerification: `abcdefz`,
     disqus: `gatsby-typescript`
   },
+  pathPrefix: '/TME-Worldwide',
   mapping: {
     'MarkdownRemark.frontmatter.author': `AuthorJson`
   },
