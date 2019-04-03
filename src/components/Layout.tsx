@@ -1,4 +1,5 @@
 import { Link } from "gatsby";
+import { withPrefix } from "gatsby";
 import * as React from "react";
 import HeaderMenu from "./HeaderMenu/HeaderMenu";
 import SidebarMenu from "./SidebarMenu/SidebarMenu";
@@ -30,7 +31,7 @@ export interface LayoutProps {
 
 const Layout = (props: LayoutProps) => {
   const { pathname } = props.location;
-  const isHome = pathname === "/";
+  const isHome = pathname === withPrefix("/");
 
   return (
     <Provider store={store}>
