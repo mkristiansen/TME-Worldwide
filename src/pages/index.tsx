@@ -2,6 +2,8 @@ import * as React from "react";
 import { Link } from "gatsby";
 import HeaderMenu from "../components/HeaderMenu/HeaderMenu";
 import { withLayout, LayoutProps, menuItems } from "../components/Layout";
+import logo from "../images/Shaper.png";
+
 import {
   Button,
   Segment,
@@ -18,10 +20,11 @@ const IndexPage = (props: LayoutProps) =>
       <HeaderMenu
         Link={Link} pathname={props.location.pathname} items={menuItems} inverted
       />
+      <img src={logo}  />
       <Container text>
         <Header inverted as="h1">Gatsby 2.0 - Starter kit</Header>
         <Header inverted as="h2">Typescript - Jest - Semantic UI</Header>
-        <Button primary size="huge">Get started!</Button>
+        
       </Container>
     </Segment>
 
