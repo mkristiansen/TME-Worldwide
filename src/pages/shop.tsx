@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Header, Container, Segment, Icon } from "semantic-ui-react";
 import {withLayout} from "../components/Layout";
+import Checkout from "../components/checkout";
 
 const AboutPage = () => {
   return (
@@ -15,8 +16,9 @@ const AboutPage = () => {
       </Segment>
       <Segment vertical>
         <p>
-          Our TME Shop will be coming soon. Come here to buy our TME board game and all of our merchandise.
+          On this page you can order one of our special TME Cards
         </p>
+        <Checkout />
       </Segment>
     </Container>
   );

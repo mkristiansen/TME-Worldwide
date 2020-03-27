@@ -42,6 +42,7 @@
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-offline": "next",
     "gatsby-plugin-sharp": "next",
+    "gatsby-plugin-stripe": "^1.2.0",
     "gatsby-plugin-typescript": "^2.0.0-rc.4",
     "gatsby-remark-autolink-headers": "next",
     "gatsby-remark-copy-linked-files": "next",
